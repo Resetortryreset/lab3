@@ -1,0 +1,87 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 303px);
+    grid-template-rows: repeat(10, 72px);
+    
+    
+}
+
+.headx{
+    text-align: right;
+    
+    font-size: 20px;
+    grid-area: 1 / 1 / 3 / 6;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.mainleft2{
+    grid-area: 3 / 1 / 5 / 2;
+    background-color: cadetblue;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.mainleft5{
+    grid-area: 5 / 1 / 9 / 2;
+    background-color: green;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.maincenter3 {
+    grid-area: 3 / 2 / 7 / 5;
+    background-color: bisque;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+} 
+
+.maincenter6 {
+    grid-area: 7 / 2 / 9 / 5;
+    background-color: red;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+} 
+
+.mainright4 {
+    grid-area: 3 / 5 / 9 / 6;
+    background-color:deepskyblue ;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.footery{
+    text-align: right;
+    font-size: 20px;
+    grid-area: 9 / 1 / 11 / 6;
+    background-color: yellow;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
